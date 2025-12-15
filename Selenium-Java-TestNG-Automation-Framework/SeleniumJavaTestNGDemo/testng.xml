@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SeleniumJavaTestNGDemo Suite">
+    <test name="Demo Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.InvalidLoginTest"/>
+            <class name="tests.LogoutTest"/>
+            <class name="tests.PIMAddEmployeeTest"/>
+            <class name="tests.DashboardValidationTest"/>
+        </classes>
+    </test>
+</suite>
